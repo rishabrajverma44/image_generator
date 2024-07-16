@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const FormField = ({
   labelName,
@@ -12,10 +12,7 @@ const FormField = ({
 }) => (
   <div>
     <div className="flex items-center gap-2 mb-2">
-      <label
-        htmlFor={name}
-        className="block text-sm font-medium text-gray-900"
-      >
+      <label htmlFor={name} className="block text-sm font-medium text-gray-900">
         {labelName}
       </label>
       {isSurpriseMe && (
