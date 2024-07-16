@@ -21,7 +21,7 @@ const Home = () => {
 
     try {
       const respons = await axios.post(
-        "https://thin-toes-shop.loca.lt/process_images",
+        "https://honest-geckos-watch.loca.lt/process_images",
         imageData
       );
       console.log(respons);
@@ -44,7 +44,7 @@ const Home = () => {
     const poll = async () => {
       try {
         const response = await axios.get(
-          "https://thin-toes-shop.loca.lt/get_images"
+          "https://honest-geckos-watch.loca.lt/get_images"
         );
         if (response.status === 200) {
           console.log("Generated image is ready");
